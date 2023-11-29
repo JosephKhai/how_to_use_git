@@ -47,6 +47,6 @@ First you need to install git in your local machine:
 
 
 #Create a new Branch from Master
-- git checkout -b <new-branch>
+- git checkout -b <new_branch_name>
 - git push
 
