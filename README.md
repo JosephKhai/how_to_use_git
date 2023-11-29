@@ -15,6 +15,7 @@ First you need to install git in your local machine:
 
 
 #Merge your branch to Master branch - safe way to do
+Before you merge
 - commit your work first or git stash 
 - git add *
 - git commit -am "name of commit"
@@ -24,12 +25,14 @@ or
 after merge
 - git stash pop (call it it back your work)
 
+Start merging
 - git fetch (from your local branch - update your local branch) 
-- git rebase origin/master (from your local branch - get some update from master to your branch)
-If you have conflict fix them and continue until all fix
+- git rebase origin/master (from your local branch - get some update from master to your branch incase other developer push or update in the master branch)
+If you have conflict fix them carefully and continue until all fix
 - git checkout master (switch to master branch)
-- git git pull origin master (get your local master branch from remote)
-- git merge/rebase <your branch> (final merge your branch to master - you can use either merge or rebase. but rebase is recommend)
+- git pull origin master (get update to your local master branch from remote master branch)
+- git merge/rebase <your_branch_name> (finally merge your branch to master - you can use either merge or rebase. but rebase is recommend)
+If you have conflict fix them carefully and continue until all fix
 - git push origin master
 
 
