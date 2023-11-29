@@ -1,8 +1,8 @@
 # how_to_use_git
 
 #configure email and username
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
+- git config --global user.email "you@example.com"
+- git config --global user.name "Your Name"
 
 
 #Clone from Existing github
