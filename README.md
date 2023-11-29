@@ -1,5 +1,8 @@
 # how_to_use_git
 
+First you need to install git in your local machine: 
+- https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
 #configure email and username
 - git config --global user.email "you@example.com"
 - git config --global user.name "Your Name"
@@ -31,10 +34,10 @@ If you have conflict fix them and continue until all fix
 
 
 #update your git branch from Master branch
-Step 1. git checkout master (switch to master branch)
-Step 2. git pull (to update your local master from remote master)
-Step 3. git checkout <your_branch> (switch it back to your branch)
-Step 4. git merge master or git rebase master (merge master branch to your branch)
+- Step 1. git checkout master (switch to master branch)
+- Step 2. git pull (to update your local master from remote master)
+- Step 3. git checkout <your_branch> (switch it back to your branch)
+- Step 4. git merge master or git rebase master (merge master branch to your branch)
 And then solve merge conflicts if you have
 - git rebase --continue
 - git push 
