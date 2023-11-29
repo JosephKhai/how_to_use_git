@@ -1,4 +1,4 @@
-# how_to_use_git
+# how_to_use_git_at_your_work_place
 
 First you need to install git in your local machine: 
 - https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
