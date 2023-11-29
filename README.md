@@ -15,14 +15,14 @@ First you need to install git in your local machine:
 
 
 #Merge your branch to Master branch - safe way to do
-///Before you merge
+- Before you begin to merge
 - commit your work first or git stash 
 - git add *
 - git commit -am "name of commit"
 - git push
 - or 
 - git stash (put somewhere your work)
-after merge
+- after merging your branch
 - git stash pop (call it it back your work)
 
 ///Start merging
