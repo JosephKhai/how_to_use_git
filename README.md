@@ -20,7 +20,7 @@ Before you merge
 - git add *
 - git commit -am "name of commit"
 - git push
-or 
+- or 
 - git stash (put somewhere your work)
 after merge
 - git stash pop (call it it back your work)
