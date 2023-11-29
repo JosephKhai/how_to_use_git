@@ -15,7 +15,7 @@ First you need to install git in your local machine:
 
 
 #Merge your branch to Master branch - safe way to do
-Before you merge
+///Before you merge
 - commit your work first or git stash 
 - git add *
 - git commit -am "name of commit"
@@ -25,7 +25,7 @@ Before you merge
 after merge
 - git stash pop (call it it back your work)
 
-Start merging
+///Start merging
 - git fetch (from your local branch - update your local branch) 
 - git rebase origin/master (from your local branch - get some update from master to your branch incase other developer push or update in the master branch)
 If you have conflict fix them carefully and continue until all fix
