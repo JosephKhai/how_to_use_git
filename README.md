@@ -11,7 +11,7 @@ First you need to install git in your local machine:
 #Clone from Existing github
 - Create a new Folder where you want to save on your local machine
 - right click in the folder and run command prompt
-- git clone <pastse url of git repo> 
+- git clone <pastse_url_of_git_repo> 
 
 
 #Merge your branch to Master branch - safe way to do
