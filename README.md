@@ -51,8 +51,8 @@ First you need to install git in your local machine:
 - git push
 
 #Merge feature_b branch to feature_a branch (branch to branch merging)
-git checkout feature_b
-git pull (get feacture_b changes on your local machine)
-git checkout feature_a (switch it back to your branch)
-git merge feature_b 
+- git checkout feature_b
+- git pull (get feacture_b changes on your local machine)
+- git checkout feature_a (switch it back to your branch)
+- git merge feature_b 
 
