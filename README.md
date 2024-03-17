@@ -4,7 +4,7 @@ First you need to install git in your local machine:
 - https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 #configure email and username
-- git config --global user.email "you@example.com"
+- git config --global user.email "your-email@example.com"
 - git config --global user.name "Your Name"
 
 
