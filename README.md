@@ -27,6 +27,11 @@ First you need to install git in your local machine:
 
 What is git stash?
 - takes your uncommitted changes (both staged and unstaged), saves them away for later use
+
+- what is `-am` stand for?
+-a: This flag stands for "all" and tells Git to automatically stage all modified files before committing them. It's equivalent to running git add -u to stage all modified and deleted files.
+-m: This flag stands for "message" and is followed by the commit message enclosed in quotes. It allows you to specify the commit message directly from the command line. Without this flag, Git would open your default text editor for you to enter the commit message.
+When you use git commit -am "Your commit message", Git stages all modified files (excluding untracked files) and commits them with the specified commit message, all in one command.
   
 ///Start merging
 - git fetch (from your local branch - update your local branch) 
@@ -54,10 +59,14 @@ What is git stash?
 - git push
 
 #Merge feature_b branch to feature_a branch (branch to branch merging)
-- git checkout feature_b
-- git pull (get feacture_b changes on your local machine)
-- git checkout feature_a (switch it back to your branch)
-- git merge feature_b
+-   git checkout feature_b
+-   git pull (get remote feacture_b changes to your local machine)
+-   git checkout feature_a (switch it back to your branch)
+-   git merge feature_b (merge feature_b to your branch feature_a)
 
 Note: you can use Github Desktop or Visual Studio or Visual Studio Code interface. However I feel a bit easier solving merge conflict in the terminal.
+
+Reference: https://www.atlassian.com/git
+Practice git at: https://learngitbranching.js.org/
+
 
