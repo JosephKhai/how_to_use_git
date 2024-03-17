@@ -59,10 +59,10 @@ When you use git commit -am "Your commit message", Git stages all modified files
 - git push
 
 #Merge feature_b branch to feature_a branch (branch to branch merging)
--   git checkout feature_b
--   git pull (get remote feacture_b changes to your local machine)
--   git checkout feature_a (switch it back to your branch)
--   git merge feature_b (merge feature_b to your branch feature_a)
+-git checkout feature_b
+- git pull (get remote feacture_b changes to your local machine)
+- git checkout feature_a (switch it back to your branch)
+- git merge feature_b (merge feature_b to your branch feature_a)
 
 Note: you can use Github Desktop or Visual Studio or Visual Studio Code interface. However I feel a bit easier solving merge conflict in the terminal.
 
