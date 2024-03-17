@@ -9,29 +9,32 @@ First you need to install git in your local machine:
 
 
 #Clone from Existing github
-- Create a new Folder where you want to save on your local machine
-- right click in the folder and run command prompt
-- git clone <pastse_url_of_git_repo> 
+- Create a new folder where you want to save on your local machine. eg. C:\dev
+- open dev folder > right click in the folder and select 'open in terminal' or run command prompt and open your folder. 
+- type 'git clone <pastse_url_of_git_repo>'
 
 
 #Merge your branch to Master branch - safe way to do
 - Before you begin to merge
-- commit your work first or git stash 
+  commit your work first or git stash
 - git add *
 - git commit -am "name of commit"
 - git push
-- or 
-- git stash (put somewhere your work)
+- or
+- git stash (save somewhere your work)
 - after merging your branch
 - git stash pop (call it it back your work)
 
+What is git stash?
+- takes your uncommitted changes (both staged and unstaged), saves them away for later use
+  
 ///Start merging
 - git fetch (from your local branch - update your local branch) 
 - git rebase origin/master (from your local branch - get some update from master to your branch incase other developer push or update in the master branch)
 - If you have conflict, fix them carefully and continue until all is fix
 - git checkout master (switch to master branch)
 - git pull origin master (get update to your local master branch from remote master branch)
-- git merge/rebase <your_branch_name> (finally merge your branch to master - you can use either merge or rebase. but rebase is recommend)
+- git merge/rebase <your_branch_name> (finally merge your branch to master - you can use either 'merge' or 'rebase' keyword. 'rebase' keyword is recommended)
 - If you have conflict, fix them carefully and continue until all is fix
 - git push origin master
 
@@ -54,5 +57,7 @@ First you need to install git in your local machine:
 - git checkout feature_b
 - git pull (get feacture_b changes on your local machine)
 - git checkout feature_a (switch it back to your branch)
-- git merge feature_b 
+- git merge feature_b
+
+Note: you can use Github Desktop or Visual Studio or Visual Studio Code interface. However I feel a bit easier solving merge conflict in the terminal.
 
