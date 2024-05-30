@@ -68,5 +68,34 @@ Note: you can use Github Desktop or Visual Studio or Visual Studio Code interfac
 
 - Reference: https://www.atlassian.com/git
 - Practice git at: https://learngitbranching.js.org/
+- 
+
+#How to undo your commit 
+If you want to undo the last commit but keep the changes in your working directory (unstaged):
+- git reset --soft HEAD~1
+
+If you want to undo the last commit and discard the changes made in that commit:
+- git reset --hard HEAD~1
+
+If you need to undo several commits, you can specify the number of commits to go back:
+- git reset --hard HEAD~<number_of_commits>
+- e.g., undo the last 3 commits: git reset --hard HEAD~3
+
+
+If you want to undo a specific commit and keep the history intact (without removing subsequent commits), you can use revert. This creates a new commit that undoes the changes:
+- git revert <commit_hash>
+- Replace <commit_hash> with the SHA of the commit you want to revert.
+
+If you just need to make changes to the last commit (e.g., to amend the commit message or add more changes):
+- git commit --amend
+
+
+If you’ve already pushed the commit to a remote repository and want to undo it, you need to force push the changes. Be very careful with this as it rewrites history and can affect other collaborators
+- git reset --hard HEAD~1
+- git push origin <branch_name> --force
+
+Important Notes
+- Use git reset --hard with caution: This command will permanently delete the changes in your working directory.
+- Force pushing (--force) should be used carefully: It can rewrite commit history and potentially disrupt other collaborators' work.
 
 
