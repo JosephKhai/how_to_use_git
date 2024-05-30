@@ -65,6 +65,8 @@ When you use git commit -am "Your commit message", Git stages all modified files
 - git merge feature_b (merge feature_b to your branch feature_a)
 
 
+
+
 #How to undo your commit 
 If you want to undo the last commit but keep the changes in your working directory (unstaged):
 - git reset --soft HEAD~1
