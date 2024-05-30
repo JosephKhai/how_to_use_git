@@ -64,8 +64,6 @@ When you use git commit -am "Your commit message", Git stages all modified files
 - git checkout feature_a (switch it back to your branch)
 - git merge feature_b (merge feature_b to your branch feature_a)
 
-Note: you can use Github Desktop or Visual Studio or Visual Studio Code interface. However I feel a bit easier solving merge conflict in the terminal.
-
 
 #How to undo your commit 
 If you want to undo the last commit but keep the changes in your working directory (unstaged):
@@ -95,6 +93,9 @@ Important Notes
 - Use git reset --hard with caution: This command will permanently delete the changes in your working directory.
 - Force pushing (--force) should be used carefully: It can rewrite commit history and potentially disrupt other collaborators' work.
 
+
+
+Note: you can use Github Desktop or Visual Studio or Visual Studio Code interface. However I feel a bit easier solving merge conflict in the terminal.
 
 Reference: https://www.atlassian.com/git
 
