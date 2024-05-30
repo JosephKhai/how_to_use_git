@@ -66,9 +66,6 @@ When you use git commit -am "Your commit message", Git stages all modified files
 
 Note: you can use Github Desktop or Visual Studio or Visual Studio Code interface. However I feel a bit easier solving merge conflict in the terminal.
 
-- Reference: https://www.atlassian.com/git
-- Practice git at: https://learngitbranching.js.org/
-- 
 
 #How to undo your commit 
 If you want to undo the last commit but keep the changes in your working directory (unstaged):
@@ -99,3 +96,5 @@ Important Notes
 - Force pushing (--force) should be used carefully: It can rewrite commit history and potentially disrupt other collaborators' work.
 
 
+- Reference: https://www.atlassian.com/git
+- Practice git at: https://learngitbranching.js.org/
