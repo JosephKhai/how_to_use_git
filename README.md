@@ -96,5 +96,6 @@ Important Notes
 - Force pushing (--force) should be used carefully: It can rewrite commit history and potentially disrupt other collaborators' work.
 
 
-- Reference: https://www.atlassian.com/git
-- Practice git at: https://learngitbranching.js.org/
+Reference: https://www.atlassian.com/git
+
+Practice git at: https://learngitbranching.js.org/
